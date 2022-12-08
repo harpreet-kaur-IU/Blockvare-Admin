@@ -1,0 +1,95 @@
+
+.booking-table-scroll-section{
+    margin-top:28px;
+}
+.booking-table-wrapper{
+    width:100%;
+    overflow-x: scroll;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background: var(--white);
+}
+.booking-table-header-row{
+    color: var(--grey4);
+    padding: 15px 20px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns:  100px 412px 177px 177px 219px 120px 150px;
+    word-break: break-all;
+    border-width: 2px 0px;
+    border-style: solid;
+    border-color: var(--grey1);
+}
+.booking-table-column{
+    color: var(--grey6);
+    display: grid;
+    gap: 20px;
+    grid-template-columns:  100px 412px 177px 177px 219px 120px 150px;
+    word-break: break-all;
+    padding: 24px 32px 24px 20px;
+    border-bottom: 2px solid var(--grey1);
+}
+.product-image{
+    width: 100px;
+    height: 80px;
+}
+.seller-wrapper{
+    gap: 6px;
+}
+.seller-wrapper img{
+    width: 24px;
+    height: 24px;
+    border-radius: 100px;
+}
+.status-wrapper{
+    padding:8px 30px;
+    border-radius: 8px;
+}
+
+.action-wrapper img{
+    background: var(--grey1);
+    border-radius: 24px;
+    padding:12px 18px;
+}
+/* .booking-table-column{
+    border-right: 1px solid #DFDFEE;
+} */
+.patient-details-column img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 8px;
+}
+.column-arrow img{
+    background-color: var(--primary);
+    border-radius: 100px;
+    padding: 6px;
+    width: 24px;
+    height: 24px;
+}
+.booking-table-column-data{
+    background-color: var(--grey7);
+}
+/* scroller style */
+.booking-table-wrapper::-webkit-scrollbar {
+    width:3px;
+    height:5px;
+}
+.booking-table-wrapper::-webkit-scrollbar-track {
+    background-color:var(--blue1);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.booking-table-wrapper::-webkit-scrollbar-thumb {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color:var(--blue1);
+}
+.booking-table-wrapper::-webkit-scrollbar-thumb:hover {
+    background: var(--primary);
+    border-radius: 0;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+} 

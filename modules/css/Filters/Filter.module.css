@@ -1,0 +1,7 @@
+.wrapper{
+    padding:28px 20px;
+    width: 469px;
+    background: #FFFFFF;
+    height: 90vh;
+    overflow-y: scroll;
+}

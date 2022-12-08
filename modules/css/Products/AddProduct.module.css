@@ -1,0 +1,38 @@
+.discard-btn{
+    padding: 10px 16px 10px 12px;
+    background-color:var(--grey1);
+    border-radius: 8px;
+}
+.discard-btn:hover{
+    opacity:0.85;
+}
+.save-btn{
+    padding: 10px 16px 10px 12px;
+    border-radius: 8px;
+    border: none;
+}
+.input{
+    padding: 10px 16px;
+    background: #FFFFFF;
+    border: 1px solid #BDC3C7;
+    border-radius: 4px;
+}
+.input:focus{
+    outline: none;
+}
+.proof-uploader{
+    background: #ECF0F1;
+    border: 1px dashed #BDC3C7;
+    border-radius: 10px;
+}
+.proof-uploader input{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+}
+.radio-button{
+    accent-color: #875ECD;
+}

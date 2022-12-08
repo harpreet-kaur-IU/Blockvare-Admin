@@ -1,0 +1,64 @@
+.wrapper{
+    margin-top: 28px;
+}
+.tabs-wrapper{
+    gap:36px;
+}
+.active{
+    padding-bottom: 4px;
+    color: var(--black);
+    border-bottom: 3px solid var(--dark-blue);
+}
+.search-wrapper{
+    padding: 11px 12px;
+    background-color: var(--grey1);
+    border-radius: 8px;
+}
+
+.search-wrapper input{
+    border:none;
+    margin-left: 10px;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 500;
+    color: #7F8C8D;
+}
+.search-wrapper input:focus-visible{
+    outline: none;
+}
+.search-wrapper input::placeholder{
+    color:#7F8C8D;
+}
+.search-wrapper img{
+    height: 15px;
+    width: 15px;
+}
+
+/* Revenue css */
+.table-wrapper{
+    background: #FFFFFF;
+    border: 2px solid var(--grey1);
+    border-radius: 12px;
+}
+.first-column{
+    padding: 31px 24px;
+    border-bottom: 2px solid var(--grey1);
+}
+.grid-col-1{
+    padding: 20px 28px;
+    background: #FFFFFF;
+    border-right: 2px solid var(--grey1);
+}
+.grid-col-4{
+    padding: 20px 28px;
+    background: #FFFFFF;
+    /* box-shadow: inset 0px -4px 0px #3498DB; */
+}
+.active-card{
+     box-shadow: inset 0px -4px 0px #3498DB;
+}
+.third-column{
+    padding: 28px;
+    border-top: 2px solid #ECF0F1;
+    border-bottom-left-radius: 12px;
+}

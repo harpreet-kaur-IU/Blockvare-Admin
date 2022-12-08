@@ -1,0 +1,46 @@
+.wrapper{
+    width: 476px;
+    height: 277px;
+    border-radius: 16px;
+    background-color: var(--white);
+}
+.padding{
+    padding:28px;
+}
+.input-wrapper{
+    background-color: var(--grey1);
+    border-radius: 8px;
+    padding: 15px 20px;
+}
+.input-wrapper input{
+    background-color: transparent;
+    border: none;
+}
+.input-wrapper input:focus{
+    outline: none;
+}
+.buttons-wrapper{
+    background-color: var(--grey1);
+    padding: 28px;
+}
+.cancel-btn{
+    border: 2px solid var(--grey2);
+    border-radius: 12px;
+    padding: 20px 80px;
+    color: var(--grey4);
+}
+.save-btn{
+    padding: 20px 80px;
+    border-radius: 12px;
+}
+.file-upload-wrapper{
+    width: 24px;
+    height: 24px;
+}
+.file-upload-wrapper input{
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+}
