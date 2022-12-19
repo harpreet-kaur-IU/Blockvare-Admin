@@ -14,8 +14,8 @@ const CategoryAll = () => {
       <div className="mt-8">
         <div className={`d-flex d-align-center d-justify-end gap-2`}>
           <div className={`d-flex d-align-center rounded-16 ${styles['search-wrapper']}`}>
-              <img src='search-icon.svg'></img>
-              <input className='col-12' type="text" placeholder='Search'/>
+            <img src='search-icon.svg'></img>
+            <input className='col-12' type="text" placeholder='Search'/>
           </div>
           <div className={`cursor-pointer d-flex d-align-center d-justify-center ${styles["filter-icon"]}`}>
             <img src='filter-icon.svg'></img>

@@ -38,7 +38,7 @@ const Revenue = () => {
         </div>
 
         <div className={`d-grid grid-col-4 ${styles["second-column"]}`}>
-            <div className={`d-flex d-flex-column ${styles["grid-col-1"]} ${styles["active-card"]} `}>
+            <div className={`d-flex d-flex-column ${styles["grid-col-1"]} ${styles["active-card"]}`}>
                 <h5 className='text-grey-4 f-600 l-22'>Gross sales</h5>
                 <h3 className='f-600 l-32 text-grey-5'>$ 23,345</h3>
             </div>
